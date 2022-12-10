@@ -27,7 +27,6 @@
     background-size: cover; 
 }
 .prg-main{
-    margin: 60px;
     padding-left: 60px;
     padding-right: 60px;
     display: inline-block;
@@ -37,6 +36,7 @@
     color: black;
     text-decoration: none;
     vertical-align: top;
+    display: inline-block;
 }
 .prg-main>h1{
     padding: 20px;
@@ -46,7 +46,6 @@
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 80px;
-    max-width: 350px;
     border-radius: 6px;
     display: inline-block;
     box-shadow: 1px 1px 50px rgb(95, 95, 95);
@@ -105,8 +104,9 @@
     box-shadow: 1px 1px 50px rgb(190, 190, 190);
 }
 .more-content{
-    width: 40%;
-    padding: 80px;
+    width: 60%;
+    margin-top: 80px;
+    margin-bottom: 80px;
     line-height: 19pt;
     display: inline-block;
 }
@@ -118,6 +118,8 @@
     max-width: 911px;
     margin-top: 200px;
     margin-bottom: 200px;
+    margin-left: 60px;
+    margin-right: 60px;
     display: inline-block;
     box-shadow: 1px 1px 50px gray;
     background-color: rgb(255, 232, 189);
@@ -127,11 +129,16 @@
     display: inline-block;
     padding: 3%;
 }
+.principal-content>h1{
+    display: inline-block;
+}
 .principal-content>p{
     line-height: 19pt;
+    display: inline-block;
 }
 .principal-img{
     width: 60%;
+    min-height: 100%;
     float: right;
     height: 600px;
     overflow: hidden;
@@ -152,4 +159,26 @@
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
     box-shadow: 1px 1px 30px rgb(255, 255, 255);
+}
+
+@media screen and (max-width:930px){
+    .hey-content{
+        width: 80%;
+    }
+
+    .more-content{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:660px){
+    
+
+    .hey-content{
+        width: 85%;
+    }
+
+    .more-content{
+        width: 85%;
+    }
 }
