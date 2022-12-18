@@ -1,0 +1,133 @@
+@media screen and (min-width:930px){
+    .mobile-navbar{
+        display: none;
+    }
+
+    .navigation{
+        width: 100%;
+        z-index:999;
+        min-height: 78px;
+        position: fixed;
+        background-image: linear-gradient(rgb(47, 47, 47), rgba(77, 77, 77, 0));
+    }
+    .logo{
+        top: 12px;
+        left: 80px;
+        position: absolute;
+        display: inline-block;
+    }
+    .logo>h1, .logo>h2{
+        margin: 0%;
+        color: white;
+        font-size: 24px;
+        text-shadow: 1px 1px 15px white;
+    }
+    .navbar{
+        right: 100px;
+        padding: 20px;
+        position: absolute;
+        display: inline-block;
+    }
+    .navbar a{
+        font-size: 18px;
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+    }
+    .navbar>a:hover{
+        text-shadow: 1px 1px 15px white;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-out;
+    }
+
+
+
+    #main{
+        font-size: 18px;
+        font-weight: bolder;
+        text-decoration: underline;
+    }
+    #mains-icon{
+        font-weight: bolder;
+    }
+    .main{
+        display: inline-block;
+    }
+    .aa{
+        display: inline-block;
+        font-size: 18px;
+    }
+
+
+    .fa-caret-down{
+        display: none !important; 
+        
+    }
+    .program-down> button:hover> .fa-caret-down{
+        display: inline-block !important;
+    }
+    .fa-caret-up{
+        display: inline-block;
+    }
+    .program-down> button:hover> .fa-caret-up{
+        display: none;
+    }
+
+
+    .program-down{
+        padding: 10px;
+        display: inline-block;
+    }
+    .program-down>button{
+        border: none;
+        color: white;
+        font-size: 16px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .program-down>button:hover{
+        color: white;
+        text-decoration: underline;
+    }
+    .program-content{
+        display: none;
+        min-width: 100px;
+        position: absolute;
+        background-color: white;
+        box-shadow: 1px 1px 10px rgb(182, 182, 182);
+    }
+    .program-content>a{
+        font-size: 18px;
+        color: black;
+        display: block;
+        padding: 12px 18px;
+        text-decoration: none;
+    }
+    .program-down:hover .program-content{
+        display: block;
+    }
+    .program-content a:hover{
+        background-color: antiquewhite;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-out;
+    }
+    .program-down:hover button{
+        text-shadow: 1px 1px 15px white;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-out;
+    }
+
+
+
+    .welcome-content{
+        max-height: 1500px;
+    }
+    .welcome-content .h1-box{
+        margin-top: 300px;
+        margin-bottom: 300px;
+        max-width: 600px;
+    }
+    .program-description{
+        width: 60%;
+    }
+}

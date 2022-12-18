@@ -3,16 +3,12 @@
 }
 
 
-
-
 .hey-content{
     width: 40%;
     margin-top: 200px;
     line-height: 19pt;
     display: inline-block;
 }
-
-
 
 
 .prg-background{
@@ -27,8 +23,8 @@
     background-size: cover; 
 }
 .prg-main{
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 3%;
+    padding-right: 3%;
     display: inline-block;
     background-color:#373737f5;
 }
@@ -115,11 +111,6 @@
 
 
 .principal-background{
-    max-width: 911px;
-    margin-top: 200px;
-    margin-bottom: 200px;
-    margin-left: 60px;
-    margin-right: 60px;
     display: inline-block;
     box-shadow: 1px 1px 50px gray;
     background-color: rgb(255, 232, 189);
@@ -127,21 +118,17 @@
 .principal-content{
     width: 34%;
     display: inline-block;
-    padding: 3%;
-}
-.principal-content>h1{
-    display: inline-block;
+    padding: 2%;
+    vertical-align: top;
 }
 .principal-content>p{
     line-height: 19pt;
-    display: inline-block;
 }
+
 .principal-img{
     width: 60%;
-    min-height: 100%;
-    float: right;
-    height: 600px;
-    overflow: hidden;
+    min-height: 600px;
+    display: inline-block;
     background-image: url("../images/principal.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -161,6 +148,19 @@
     box-shadow: 1px 1px 30px rgb(255, 255, 255);
 }
 
+@media screen and (min-width:930px){
+    .principal-background{
+        max-width: 911px;
+        margin-top: 200px;
+        margin-bottom: 200px;
+        margin-left: 60px;
+        margin-right: 60px;
+        display: inline-block;
+        box-shadow: 1px 1px 50px gray;
+        background-color: rgb(255, 232, 189);
+    }
+}
+
 @media screen and (max-width:930px){
     .hey-content{
         width: 80%;
@@ -168,6 +168,13 @@
 
     .more-content{
         width: 80%;
+    }
+
+    .principal-background{
+        margin: 20px;
+        display: inline-block;
+        box-shadow: 1px 1px 50px gray;
+        background-color: rgb(255, 232, 189);
     }
 }
 

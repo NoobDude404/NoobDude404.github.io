@@ -1,0 +1,91 @@
+@media screen and (max-width:930px){
+
+    .navbar{
+        display: none;
+    }
+
+    .navigation{
+        width: 100%;
+        z-index: 999;
+        max-height: 100px;
+        min-height: 78px;
+        position: fixed;
+        background-image: linear-gradient(rgb(47, 47, 47), rgba(77, 77, 77, 0));
+    }
+    .logo{
+        top: 12px;
+        left: 12px;
+        position: absolute;
+        display: block;
+    }
+    .logo>h1, .logo>h2{
+        margin: 0%;
+        color: white;
+        font-size: 24px;
+        text-shadow: 1px 1px 15px white;
+    }
+
+    .mobile-navbar{
+        position: relative;
+    }
+    .mobile-navbar>button{
+        top: 24px;
+        right: 12px;
+        border: none;
+        display: block;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .mobile-navbar i{
+        color: white;
+        font-size: 28px;
+        display: inline-block;
+    }
+    .mobile-navbar>button:hover .mobile-navbar-a-father{
+        display: block;
+    }
+
+    .mobile-navbar-a-father{
+        right: 5px;
+        display: none;
+        position: absolute;
+        background-color: white;
+        box-shadow: 1px 1px 10px gray;
+    }
+    .mobile-navbar-a-father>a{
+        color: black;
+        display: block;
+        font-size: 18px;
+        padding:10px 20px;
+        text-decoration: none;
+    }
+
+    #main{
+        font-size: 18px;
+        font-weight: bolder;
+        text-decoration: underline;
+    }
+    #mains-icon{
+        font-weight: bolder;
+    }
+    .main{
+        display: inline-block;
+    }
+    .aa{
+        display: inline-block;
+        font-size: 18px;
+    }
+
+    .welcome-content{
+        max-height: 400px;
+    }
+    .welcome-content .h1-box{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        max-width: 600px;
+    }
+
+    .program-description{
+        width: 80%;
+    }
+}
