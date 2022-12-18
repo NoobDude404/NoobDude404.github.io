@@ -171,7 +171,8 @@
     }
 
     .principal-background{
-        margin: 20px;
+        margin-top: 200px;
+        margin-bottom: 200px;
         display: inline-block;
         box-shadow: 1px 1px 50px gray;
         background-color: rgb(255, 232, 189);
