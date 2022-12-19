@@ -52,13 +52,13 @@
     .mobile-navbar-a-father>a{
         color: black;
         display: block;
-        font-size: 18px;
+        font-size: 24px;
         padding:10px 20px;
         text-decoration: none;
     }
 
     #main{
-        font-size: 18px;
+        font-size: 24px;
         font-weight: bolder;
         text-decoration: underline;
     }

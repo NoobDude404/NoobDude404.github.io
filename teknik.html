@@ -6,6 +6,7 @@
         <link rel="stylesheet" type="text/css" href="./css/sharedlayout.css">
         <link rel="stylesheet" type="text/css" href="./css/min930-sharedlayout.css">
         <link rel="stylesheet" type="text/css" href="./css/max930-sharedlayout.css">
+        <script src="./mobilenav.js"></script>
         <script src="https://kit.fontawesome.com/12383479f3.js" crossorigin="anonymous"></script>
         <meta name="viewport" content="width=device-width, inital-scale=0.5, minimum-scale=0.5, maximum-scale=0.8, user-scalable=no">
     </head>
@@ -44,9 +45,9 @@
             <!--Mobile navbar-->
             <div class="mobile-navbar">
                 <button onclick="navonclick()">
-                    <i class="fa-solid fa-bars"></i>
+                    <i onclick="navonclick()" class="fa-solid fa-bars"></i>
 
-                    <div class="mobile-navbar-a-father">
+                    <div class="mobile-navbar-a-father" id="me">
                         <a href="./index.html">Home</a>
                         <a href="./fotofilm.html">Foto & Film</a>
                         <a href="./design.html">Design</a>
